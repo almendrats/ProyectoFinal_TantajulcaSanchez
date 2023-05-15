@@ -1,0 +1,100 @@
+/*añadiendo font*/
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+/* variables porfa funcionen, añadiendo variables a la página*/
+
+:root{
+    --primary:#424242;
+    --dark: #1B1919;
+    --body:#888;
+    --light-color:#FFFFFF;
+    --textimg:#FBF6F6;
+    --box-shadow:0 8px 22px rbga(0,0,0,0,1);
+}
+
+body{
+    font-family: Sora, "sans-serif";
+    line-height:1.7;
+    color:var(--textimg)
+}
+
+h1,h2,h3,h4, .display-4{
+    color:var(--light-color)
+}
+
+
+li{color:#1B1919
+}
+
+h6{
+    color:var(--dark)
+}
+a{
+    color:var(--dark);
+    text-decoration: none;
+}
+
+p{
+    color: #424242;
+}
+.navbar .nav-link{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.btn{
+    padding: 14px 18px;
+    border-width: 2px;
+    border: 0;
+}
+
+.hero{
+    background-image:url(../img/DJJS1.JPG) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 2;
+}
+
+.hero::after{
+    content: "";
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(86, 83, 83, 0.765);
+    z-index: -1;
+
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.unete{color: #1B1919;}
+
+form{
+    align-items: center;
+}
+
+form input .form-control{
+    height:55px
+}
+
+form .form-control{
+    border: transparent;
+    border-radius: 0;
+    background-color: rgb(235, 235, 235);
+}
+
+
+.copyright{
+    color: #1B1919;
+    font-weight: 700;
+}
+
+.punit{
+    color: #FBF6F6;
+}
